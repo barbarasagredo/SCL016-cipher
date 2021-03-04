@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.card {
+    display: block;
+}
+
+.card2 {
+    display: none;
+}
+
+.card3 {
+    display: none;
+}
+
+.card4 {
+    display: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+/*PAGINA UNO*/
+.card{
+    background-image: url("./IMAGENES/LAMB.png");
+    background-repeat:no-repeat;
+    background-position:top;
+    display: block;
+    justify-content: center;
+    width: 0 auto; 
+    height: 0 auto;
+    transition: 0.3s;
+    margin: 15px;
+    width: 1500px;
+    height: 600px;
+}
+
+#botonInicio{
+        display: block;
+        margin: 0 auto;
+        margin-top: 220px;
+        width: 40%;
+        padding: 14px;
+        color: lightcoral;
+        font-family: 'Dancing Script', cursive, bold; 
+        text-align: auto;
+        background-color: transparent;
+        border-style: none;
+        font-size: 30px;
+}
+
+#parentalMessage{
+    padding: 14px;
+    color:darkslateblue;
+    font-family: 'Raleway';
+    font-weight: bold;
+    text-align: auto;
+    border-radius: 10px;
+    border-style: none;
+    background-color:lightskyblue;
+    margin-left: 10px;
+    margin-top: 150px;
+}
+
+/*PAGINA DOS*/
+.card2{
+    background-image: url("./IMAGENES/BACKGROUND.png");
+    background-repeat:no-repeat;
+    width: 0 auto; 
+    height: 0 auto;
+    transition: 0.3s;
+    margin: 15px;
+    width: 1500px;
+    height: 580px;
+    margin-left: -10px;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    size: 150%;
+    text-align: center;
+    color: lightcoral;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+}
+
+ol{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: lightcoral;
+    margin-left: -3%;
+    margin-right: 5%;
+    font-size: 26px;
+}
+
+.botones{
+    padding: 8px;
+    color: darkslateblue;
+    font-family: 'Raleway';
+    font-weight: bold;
+    background-color:lightskyblue;
+    border-color: lightskyblue;
+    margin-left: 41%;
+    margin-right: -39%;
+    margin-top: 10px; 
+    border-radius: 5px;
+}
+
+#cajaTexto{
+    color: black;
+    font-family: 'Raleway, bold';
+    text-align: center;
+    border-radius: 50px;
+    border-style:dashed ;
+    background-color:lightskyblue;
+    margin-left: 31%;
+    margin-bottom: 0%;
+    margin-top: 2%;
+    height: 100px;
+    width: 400px;
+    padding: 20px;
+    opacity: 80%;
+}
+
+#share {
+    margin-left: 80%;
+    margin-top: -2%;
+    background-color: transparent;
+    border-style: none;
+    size: 3px;
+}
+
+textarea{
+    border-radius: 20px;
+    padding: 8px;
+    border: solid;
+    border-color: darkslategrey;
+}
+
+#numeros{
+    border-radius: 20px;
+    padding: 8px;
+    border: solid;
+    border-color: darkslategrey;
+}
+
+  /*PAGINA CUATRO*/
+  .card3{
+    background-image: url("./IMAGENES/PARAPADRES.jpg");
+    background-repeat:no-repeat;
+    width: 0 auto; 
+    height: 0 auto;
+    transition: 0.3s;
+    position: relative;
+    width: 1398px;
+    height: 655px;
+}
+
+#primer{
+    font-family: 'Comfortaa', cursive;
+    color: #C25E5E;
+    text-align: center;
+    text-justify: auto;
+    position: absolute;
+    font-size: 16px;
+    padding: 60px;
+    background-color:white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 30%;
+    opacity: 60%;
+    border-style: double;
+    border-color: salmon;
+    border-radius: 20px;
+    border-width: 4px;    
+    text-decoration: none;
+}
+
+header{
+    font-family: 'Dancing Script', cursive, bold;
+    font-size: 50px;
+    text-align: center;
+    color: lightcoral;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+/*PAGINA TRES*/
+.card4{
+    background-image: url("./IMAGENES/0BACKGROUND.png");
+    background-repeat:no-repeat;
+    width: 0 auto; 
+    height: 0 auto;
+    transition: 0.3s;
+    margin: 15px;
+    width: 1500px;
+    height: 600px;
+}

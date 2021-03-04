@@ -1,14 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- PRIMERA PAGINA-->
+  <section class="card">
+    <div class="page1">
+      <button type="text" id="botonInicio">¡Hola, amiguite! <br> Descubre el mensaje secreto...</button>
+      <br>
+      <button type="text" id="parentalMessage"> MENSAJE PARA PADRES </button>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+  </section>
+
+  <!--SEGUNDA PAGINA -->
+  <section class="card2" id="card2">
+    <div class="page2">
+      <h1> Ahora escribe... </h1>
+      <ol> Primero las letras
+        <textarea name="texto" id="letras" cols="30" rows="3"></textarea>
+      </ol>
+      <ol>Después los números
+        <input type="number" id="numeros" name="number" min="0" max="50">
+      </ol>
+      <ol>El mensaje secreto es... </ol>
+      <button class="botones" id="botonDescubre">Descubre tu mensaje</button>
+      <button class="botones" id="cifrando">Cifrar (padres)</button>
+
+      <ol>
+        <p id="cajaTexto"> </p>
+      </ol>
+      <button id="share" type="image" src=""><img src="./IMAGENES/LILPRINCESHARE.png" alt=""></button>
+    </div>
+  </section>
+
+  <!--TERCERA PAGINA-->
+  <section class="card3">
+    <div class="page3">
+      <header>MENSAJE PARA PADRES</header>
+
+      <p id="primer">En la era digital es importante seguir reforzando los lazos con nuestros pequeños.<br>Es por eso
+        que te invitamos a ser partícipe de la enseñanza de los recursos digitales, entregando mensajes de amor con un
+        código secreto...
+
+        <button id="boton"> (continuar) </button>
+      </p>
+    </div>
+  </section>
+
+  <!--ULTIMA PAGINA-->
+  <section class="card4">
+    <div class="page4">
+      <img src="IMAGENES/REDES SOCIALES.png" alt="">
+      <footer> <button id="volver">Volver al inicio</button>
+      </footer>
+    </div>
+  </section>
+
+  <script src="index.js" type="module"></script>
+
+</body>
+
 </html>
