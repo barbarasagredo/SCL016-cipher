@@ -29,3 +29,4 @@ La estética de la página tiene como inspiración la novela El Principito de An
 
 Creo que es una forma amorosa de que los niños comiencen a desarrollar un interés por las funcionalidades que entrega internet, más allá de las redes sociales y los video juegos. Además, refuerza el vínculo parental con los niños a través de pequeños gestos como es dejar un mensaje de amor. Creo que, en el mundo actual es importante reforzar estos afectos y darle un sentido más humano a las relaciones con nuestros seres queridos. 
 
+![img](https://github.com/barbarasagredo/SCL016-cipher/blob/master/src/IMAGENES/ELEPHANT.png)
