@@ -48,7 +48,7 @@ Mensaje Secreto es una forma amorosa de que los niños comiencen a desarrollar u
 * [CSS](https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada) - Hoja de estilo en cascadas.
 * [HTML semántico](https://es.wikipedia.org/wiki/HTML) - Lenguaje de marcado de texto.
 
-## Autoría :gem:Creado por :gem:
+## Creado por :gem:
 **Bárbara Sagredo Cárcamo** 
 
 Desarrollo, diseño e documentación.
